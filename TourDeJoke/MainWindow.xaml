@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TourDeJoke"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="972" Width="1728" WindowStartupLocation="CenterScreen">
+    <Grid >
+        <Canvas x:Name="mainCanvas">
+            <Canvas.Background>
+                <ImageBrush x:Name="CanvasBrush" ImageSource="D:\Ondra\Photoshop\export\gamebck.png"/>
+            </Canvas.Background>
+            <Image x:Name="Player" Source="https://orig00.deviantart.net/e8f2/f/2016/228/2/c/pixel_character_design_2_by_secondsurge-dae3j4s.png" Height="326" Width="370" Canvas.Left="635" Canvas.Top="606"  ></Image>
+        </Canvas>
+
+
     </Grid>
+
 </Window>
